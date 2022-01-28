@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_salle">
+
+    <fragment
+        android:id="@+id/nav_salle"
+        android:name="com.example.bloc_salle_app.ui.salle.SalleFragment"
+        android:label="@string/menu_salle"
+        tools:layout="@layout/fragment_salle" />
+
+    <fragment
+        android:id="@+id/nav_bloc"
+        android:name="com.example.bloc_salle_app.ui.bloc.BlocFragment"
+        android:label="@string/menu_bloc"
+        tools:layout="@layout/fragment_bloc" />
+
+    <fragment
+        android:id="@+id/nav_scanner"
+        android:name="com.example.bloc_salle_app.ui.scanner.ScannerFragment"
+        android:label="@string/menu_scanner"
+        tools:layout="@layout/fragment_scanner" />
+
+</navigation>

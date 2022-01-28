@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_salle"
+            android:icon="@drawable/ic_salle"
+            android:title="@string/menu_salle" />
+        <item
+            android:id="@+id/nav_bloc"
+            android:icon="@drawable/ic_bloc"
+            android:title="@string/menu_bloc" />
+        <item
+            android:id="@+id/nav_scanner"
+            android:icon="@drawable/ic_scanner"
+            android:title="@string/menu_scanner" />
+    </group>
+</menu>
